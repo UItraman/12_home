@@ -3,6 +3,15 @@ body {
     font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 
+h1 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 100%;
+    margin: 15px 0px 15px 0px;
+    padding: 0px;
+    word-wrap: break-word;
+}
+
 a:link, a:visited, a:active {
     color: #778087;
     text-decoration: none;
@@ -12,6 +21,21 @@ a:link, a:visited, a:active {
 a:hover {
     color: #4d5256;
     text-decoration: underline;
+}
+
+a.top:link, a.top:visited {
+    color: #556;
+    text-decoration: none;
+}
+
+a.top:hover {
+    color: #99a;
+    text-decoration: none;
+}
+
+a.top:active {
+    color: #001;
+    text-decoration: none;
 }
 
 a.tab:link, a.tab:visited, a.tab:active {
@@ -119,6 +143,18 @@ a.count_livid:hover {
     border-top-right-radius: 3px;
 }
 
+#q {
+    border: none;
+    width: 222px;
+    height: 26px;
+    margin: 0px 0px 2px 30px;
+    background-color: transparent;
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+    font-size: 14px;
+    line-height: 16px;
+    outline: none;
+}
+
 .sep20 {
     height: 20px;
 }
@@ -133,6 +169,12 @@ a.count_livid:hover {
 
 .sep3 {
     height: 3px;
+}
+
+.content {
+    min-width: 600px;
+    max-width: 1100px;
+    margin: 0px auto 0px auto;
 }
 
 .box {
@@ -174,10 +216,73 @@ a.count_livid:hover {
     hyphens: auto;
 }
 
+.gray {
+    color: #999;
+}
+
 .fade {
     color: #ccc;
 }
 
 .small {
     font-size: 11px;
+}
+
+.header {
+    padding: 10px;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: left;
+    border-bottom: 1px solid #e2e2e2;
+    overflow: auto;
+}
+
+.chevron {
+    font-family: "Lucida Grande";
+    font-weight: 500;
+}
+
+.votes {
+    display: inline-block;
+}
+
+.vote:link, .vote:visited, .vote {
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 1;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    color: #778;
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+.vote:hover {
+    color: #667;
+    border: 1px solid #667;
+    text-decoration: none;
+}
+
+.vote:active {
+    background-color: #f0f0f0;
+    border: 1px solid #aaa;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+}
+
+.topic_content {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000;
+    word-wrap: break-word;
+}
+
+.topic_buttons {
+    padding: 5px;
+    font-size: 14px;
+    line-height: 120%;
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+    border-radius: 0px 0px 3px 3px;
+    text-align: left;
 }

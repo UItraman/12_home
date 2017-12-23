@@ -8,13 +8,82 @@
     </head>
     <body>
         <div id="Top">
-
+            <div class="content">
+                <div style="padding-top: 6px;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                            <tr>
+                                <td align="left" width="110">
+                                    <a href="/" name="top" title="way to explore">
+                                        <img src="//v2ex.assets.uxengine.net/site/logo@2x.png?m=1346064962" alt="V2EX" align="default" width="94" height="30" border="0">
+                                    </a>
+                                </td>
+                                <td align="left" width="auto">
+                                    <div id="Search">
+                                        <form action="https://www.google.com" onsubmit="return dispatch()" target="_blank">
+                                            <div style="width: 276px; height: 28px; background-size: 276px 28px; background-image: url('static/img/qbar_light@2x.png'); background-repeat: no-repeat; display: inline-block;">
+                                                <input maxlength="40" name="q" id="q" value="" type="text">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </td>
+                                <td style="padding-top: 2px;" align="right" width="570">
+                                    <a class="top" href="/">首页</a>&nbsp;&nbsp;&nbsp;
+                                    <a class="top" href="/member/aoteman255">aoteman255</a>&nbsp;&nbsp;&nbsp;
+                                    <a class="top" href="/notes">记事本</a>&nbsp;&nbsp;&nbsp;
+                                    <a class="top" href="/t">时间轴</a>&nbsp;&nbsp;&nbsp;
+                                    <a class="top" href="/settings">设置</a>&nbsp;&nbsp;&nbsp;
+                                    <a class="top" href="#;" onclick="if (confirm('确定要从 V2EX 登出？')) { location.href= '/signout?once=59298'; }">登出</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
 
         <div id="Wrapper">
             <div class="content">
                 <div id="Leftbar"></div>
                 <div id="Rightbar">
+                    <div class="sep20"></div>
+                    <div class="box">
+                        <div class="cell">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tbody>
+                                    <tr>
+                                        <td width="48" valign="top"><a href="/member/aoteman255"><img src="static/img/user.png" class="avatar" style="max-width: 48px; max-height: 48px;" align="default" border="0"></a></td>
+                                        <td width="10" valign="top"></td>
+                                        <td align="left" width="auto"><span class="bigger"><a href="/member/aoteman255">aoteman255</a></span>
+
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            <div class="sep10"></div>
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tbody><tr>
+                                    <td align="center" width="33%"><a href="/my/nodes" class="dark" style="display: block;"><span class="bigger">1</span><div class="sep3"></div><span class="fade">节点收藏</span></a></td>
+                                    <td style="border-left: 1px solid rgba(100, 100, 100, 0.4); border-right: 1px solid rgba(100, 100, 100, 0.4);" align="center" width="34%"><a href="/my/topics" class="dark" style="display: block;"><span class="bigger">0</span><div class="sep3"></div><span class="fade">主题收藏</span></a></td>
+                                    <td align="center" width="33%"><a href="/my/following" class="dark" style="display: block;"><span class="bigger">0</span><div class="sep3"></div><span class="fade">特别关注</span></a></td>
+                                </tr>
+                            </tbody></table>
+                        </div>
+                        <div class="cell">
+                            <div style="width: 250px; background-color: #f0f0f0; height: 3px; display: inline-block; vertical-align: middle;"><div style="width: 1px; background-color: #ccc; height: 3px; display: inline-block;"></div></div>
+                        </div>
+
+                        <div class="cell" style="padding: 5px;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tbody><tr>
+                                    <td width="32"><a href="/new"><img src="static/img/flat_compose.png" width="32" border="0"></a></td>
+                                    <td width="10"></td>
+                                    <td align="left" width="auto" valign="middle"><a href="/new">创作新主题</a></td>
+                                </tr>
+                            </tbody></table>
+                        </div>
+                        <div class="inner"><div class="fr" id="money"><a href="/balance" class="balance_area" style="">20 <img src="//v2ex.assets.uxengine.net/static/img/silver.png" alt="S" style="padding-bottom: 2px;" align="absmiddle" border="0"> 35 <img src="//v2ex.assets.uxengine.net/static/img/bronze.png" alt="B" align="absmiddle" border="0"></a></div><a href="/notifications" class="fade">0 条未读提醒</a></div>
+
+                    </div>
 
                 </div>
                 <div id="Main">
